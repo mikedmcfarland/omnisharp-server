@@ -11,7 +11,7 @@ namespace OmniSharp.Solution
             @"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5",
             @"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0",
             @"C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5",
-            @"C:\Windows\Microsoft.NET\Framework\v4.0.30319",            
+            @"C:\Windows\Microsoft.NET\Framework\v4.0.30319",
             @"C:\Windows\Microsoft.NET\Framework\v2.0.50727",
             @"C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies",
             @"C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\Assemblies",
@@ -51,7 +51,12 @@ namespace OmniSharp.Solution
             @"/Library/Frameworks/Mono.Framework/Libraries/mono/4.0",
             @"/Library/Frameworks/Mono.Framework/Libraries/mono/3.5",
             @"/Library/Frameworks/Mono.Framework/Libraries/mono/2.0",
-            @"~/.kpm/packages"
+            @"~/.kpm/packages",
+
+            //added wine unity3d paths
+            @"/home/mike/.PlayOnLinux/wineprefix/unity3d_64/drive_c/Program Files/Unity/Editor/Data/Managed",
+            @"/home/mike/.PlayOnLinux/wineprefix/unity3d_64/drive_c/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem",
+            @"/home/mike/.PlayOnLinux/wineprefix/unity3d_64/drive_c/Program Files/Unity/Editor/Data/PlaybackEngines/iossupport"
         };
     }
 }
